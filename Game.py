@@ -78,6 +78,7 @@ class Game:
                     print(f"{self.current_field.symbol_localization(self.current_field.check_victory())} won!")
                     return
                 player: int = 2
+            print(self.current_field)
 
             while position not in self.available_cells:
                 position: str = input(
